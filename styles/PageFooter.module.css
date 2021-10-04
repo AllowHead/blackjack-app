@@ -1,0 +1,24 @@
+.wrapper {
+    background-color: #F8F6F0;
+    padding: 3rem;
+}
+
+.inText {
+    width: 60vw;
+    max-width: 30rem;
+    margin: 0px auto;
+    text-indent: 1rem;
+    text-align: left;
+}
+
+.twitterButton {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom{
+    height: 3rem;
+    width: 100%;
+    background-color: #03447C;
+}

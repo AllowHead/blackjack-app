@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #03447C;
+    flex-flow: column;
+    /* user-select: none; */
+}
+
+.cases {
+    max-width: 32rem;
+    width: 100vw;
+    color: black;
+    background: rgb(240, 243, 252);
+    background: linear-gradient(90deg, rgba(240, 243, 252, 1) 0%, rgba(243, 243, 247, 1) 35%, rgba(239, 239, 250, 1) 100%);
+    text-indent: 1rem;
+    text-align: left;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: solid 0.2rem black;
+    border-radius: 0.5rem;
+}
+
+.cases h3 {
+    text-align: center;
+}
+
+.navbars {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}

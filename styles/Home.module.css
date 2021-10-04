@@ -1,121 +1,120 @@
-.container {
+.wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #03447C;
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  flex-flow: column;
+  color: white;
+  user-select: none;
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
 }
 
-.title,
-.description {
+.title_text {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  color: gold;
+}
+
+.start {
+  margin: 1rem auto;
+  margin-top: 0px;
+}
+
+.bet {
+  border-radius: 2rem;
+  border: solid black 0.2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  padding: 1rem;
+  background-color: white;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+  margin: 0.1rem;
+  color: gold;
+  text-shadow: 1px 1px 1px #003366, -1px 1px 1px #003366, 1px -1px 1px #003366, -1px -1px 1px #003366, 1px 0px 1px #003366, 0px 1px 1px #003366, -1px 0px 1px #003366, 0px -1px 1px #003366;
+}
+
+.total {
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
+.cardnumber {
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
+.call {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+.action {
+  text-align: center;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.result {
+  border-radius: 2rem;
+  border: solid white 0.1rem;
+  display: inline-block;
+  padding: 1rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.result p {
+  margin: 0px 0px;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.display {
+  display: flex;
+  justify-content: center;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+.ranking {
+  width: 70vw;
+  margin: 0px auto;
+  margin-top: 2rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.game {
+  width: 70vw;
+  text-align: right;
+}
+
+.game p {
+  margin: 0px;
+}
+
+.alerts {
+  display: flex;
+  justify-content: center;
+}
+
+.infos {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.confirmer {
+  width: 70vw;
+  max-width: 30rem;
+  min-width: 20rem;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.confirmer p {
+  margin-bottom: 0px;
 }
